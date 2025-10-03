@@ -1,29 +1,26 @@
-1. Tạo tài khoản GitHub
+1. Tạo tài khoản GitHub:
 
-Vào https://github.com
- → Sign up.
+- Vào https://github.com → Sign up.
 
-Điền username, email, mật khẩu → xác thực → đăng nhập.
+- Điền username, email, mật khẩu → xác thực → đăng nhập.
 
-2. Tạo repository (repo)
+2. Tạo repository (repo):
 
-Nhấn New (trên thanh repo).
+- Nhấn New (trên thanh repo), đặt tên repo, mô tả (optional).
 
-Đặt tên repo, mô tả (optional).
+- Chọn: Public (ai cũng xem được) hoặc Private.
 
-Chọn:
+- Tick "Add a README" để có file README.md.
 
-Public (ai cũng xem được) hoặc Private.
+- Nhấn Create repository.
 
-Tick "Add a README" để có file README.md.
+3. Kết nối GitHub với máy tính (dùng Git):
 
-Nhấn Create repository.
+a) Clone repo về máy:
 
-3. Kết nối GitHub với máy tính (dùng Git)
-a) Clone repo về máy
 git clone https://github.com/username/repo.git
 
-b) Hoặc tạo repo mới từ máy
+b) Hoặc tạo repo mới từ máy:
 git init
 git remote add origin https://github.com/username/repo.git
 git branch -M main
